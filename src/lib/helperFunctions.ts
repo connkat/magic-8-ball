@@ -8,7 +8,7 @@ const answers = [
   "Ask your mom",
 ];
 
-export function findAnswer(): string | void {
-  const random = Math.floor(Math.random() * max) + 7;
+export function findAnswer(): string {
+  const random = Math.floor(Math.random() * 7) +1;
   return answers[random];
 }

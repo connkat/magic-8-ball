@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   height: 100vh;
-  background: url("./images/magic.jpg");
+  background: url("./images/space.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -10,9 +10,23 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 30vh;
-  padding-bottom: 3vh;
 }
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  opacity: 0.6;
+  width: 30vh;
+  height: 30vh;
+  top: 40%;
+  left: 40%;
+  position: absolute;
+
+}
+
+.answer {
+  background: url("./images/8ball.png");
+  background-repeat: no-repeat;}
 
 h3 {
   padding-right: 10px;
@@ -35,9 +49,5 @@ h1 {
     width: 100%;
     text-shadow: 2px 2px white;
   }
-  .solution {
-    border-radius: 5px;
-    background-color: white;
-    opacity: 0.7;
-  }
+  
 }
