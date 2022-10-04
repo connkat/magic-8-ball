@@ -21,12 +21,12 @@
   top: 40%;
   left: 40%;
   position: absolute;
-
 }
 
 .answer {
   background: url("./images/8ball.png");
-  background-repeat: no-repeat;}
+  background-repeat: no-repeat;
+}
 
 h3 {
   padding-right: 10px;
@@ -49,5 +49,16 @@ h1 {
     width: 100%;
     text-shadow: 2px 2px white;
   }
+
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.6;
+    width: 30vh;
+    height: 30vh;
+    top: 30%;
+    left: 17%;
+    position: absolute;
   
+  }
 }
