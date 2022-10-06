@@ -9,6 +9,6 @@ const answers = [
 ];
 
 export function findAnswer(): string {
-  const random = Math.floor(Math.random() * 7) +1;
+  const random = Math.floor(Math.random() * 7);
   return answers[random];
 }
